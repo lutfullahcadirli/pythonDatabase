@@ -1,5 +1,5 @@
 import pyodbc
-
+from connection import connection
 
 def insertProduct(id,name,price):
     server = "DESKTOP-GS0CPS2\\SQLEXPRESS"
